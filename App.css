@@ -1,0 +1,210 @@
+            input {
+                height: 30px;
+                width: 40%;
+            }
+            
+            button {
+                height: 30px;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                margin: 0;
+            }
+            
+            .container {
+                position: relative;
+            }
+            /* Style the header */
+            
+            .header {
+                background-color: #f1f1f1;
+                padding: 20px;
+                text-align: center;
+            }
+            /* Style the top navigation bar */
+            
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .topnav ul li {
+                display: inline;
+                margin-bottom: 10px;
+            }
+            /* Style the topnav links */
+            
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                text-decoration: none;
+                padding: 12px 16px;
+            }
+            /* Change color on hover */
+            
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            
+            .topnav li a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+            /* row*/
+            
+            .row {
+                position: relative;
+                /* Make it stick, even on scroll */
+            }
+            /* Create three unequal columns that floats next to each other */
+            
+            .column {
+                float: left;
+                padding: 10px;
+            }
+            /* sidenav column */
+            
+            .column.sidenav {
+                width: 25%;
+            }
+            
+            .sidenav {
+                background-color: gray;
+                height: 100%;
+            }
+            
+            .sidenav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: gray;
+                height: 100%;
+                /* Full height */
+                /* position: fixed; Make it stick, even on scroll */
+                overflow: auto;
+                /* Enable scrolling if the sidenav has too much content */
+            }
+            
+            .sidenav li {
+                text-align: center;
+                border-bottom: 1px solid #555;
+            }
+            
+            .sidenav li a {
+                display: block;
+                color: #000;
+                padding: 8px 16px;
+                text-decoration: none;
+            }
+            
+            .sidenav li a:hover {
+                background-color: #555;
+                color: white;
+            }
+            
+            .sidenav li a.active {
+                background-color: #04AA6D;
+                color: white;
+            }
+            
+            .sidenav li a:hover:not(.active) {
+                background-color: #555;
+                color: white;
+            }
+            
+            .sidenav li:last-child {
+                border-bottom: none;
+            }
+            /* Middle column */
+            
+            .column.content {
+                width: 75%;
+            }
+            
+            .content {
+                background-color: aquamarine;
+                height: 100%;
+            }
+            /* Clear floats after the columns */
+            
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            /* Style the footer */
+            
+            .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+                text-align: center;
+            }
+            /*#App {
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+#page-wrap {
+    text-align: center;
+    overflow: auto;
+}
+
+.bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: white;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 36px;
+    top: 36px;
+}
+
+.bm-burger-bars {
+    background: #373a47;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #bdc3c7;
+}
+
+.bm-menu {
+    background: #373a47;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+.bm-item-list {
+    color: #b8b7ad;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}*/
